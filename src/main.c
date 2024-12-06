@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
         printf("ERROR: Usage: bitwise_calcualtor [flags] [operation] [operand1] [operand2] ...\n");  
         exit(0);
     }
-    if((argc == 2) && (strcmp(argv[1], HELP))){
+    if((argc == 2) && (strcmp(argv[1], HELP) == 0)){
         helpMenu();
         exit(0);
     }
